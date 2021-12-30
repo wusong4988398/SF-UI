@@ -1,0 +1,729 @@
+.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}
+.no-pointer-event {
+    cursor: not-allowed;
+}
+.text-omit {
+    overflow-x: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.text-wrap {
+    word-wrap: break-word;
+    text-align: center;
+}
+.center-h-v {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.nowrap {
+    -webkit-flex-wrap: nowrap!important;
+    -ms-flex-wrap: nowrap!important;
+    flex-wrap: nowrap!important;
+}
+.direction-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-visible {
+    overflow: visible;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.grow-0 {
+    -webkit-box-flex: 0 !important;
+    -webkit-flex-grow: 0 !important;
+    -ms-flex-positive: 0 !important;
+    flex-grow: 0 !important;
+}
+.grow-1 {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex-grow: 1 !important;
+    -ms-flex-positive: 1 !important;
+    flex-grow: 1 !important;
+}
+.grow-2 {
+    -webkit-box-flex: 2 !important;
+    -webkit-flex-grow: 2 !important;
+    -ms-flex-positive: 2 !important;
+    flex-grow: 2 !important;
+}
+.grow-3 {
+    -webkit-box-flex: 3 !important;
+    -webkit-flex-grow: 3 !important;
+    -ms-flex-positive: 3 !important;
+    flex-grow: 3 !important;
+}
+.grow-4 {
+    -webkit-box-flex: 4 !important;
+    -webkit-flex-grow: 4 !important;
+    -ms-flex-positive: 4 !important;
+    flex-grow: 4 !important;
+}
+.grow-5 {
+    -webkit-box-flex: 5 !important;
+    -webkit-flex-grow: 5 !important;
+    -ms-flex-positive: 5 !important;
+    flex-grow: 5 !important;
+}
+.shrink-0 {
+    -webkit-flex-shrink: 0 !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+}
+.shrink-1 {
+    -webkit-flex-shrink: 1 !important;
+    -ms-flex-negative: 1 !important;
+    flex-shrink: 1 !important;
+}
+.shrink-2 {
+    -webkit-flex-shrink: 2 !important;
+    -ms-flex-negative: 2 !important;
+    flex-shrink: 2 !important;
+}
+.shrink-3 {
+    -webkit-flex-shrink: 3 !important;
+    -ms-flex-negative: 3 !important;
+    flex-shrink: 3 !important;
+}
+.shrink-4 {
+    -webkit-flex-shrink: 4 !important;
+    -ms-flex-negative: 4 !important;
+    flex-shrink: 4 !important;
+}
+.shrink-5 {
+    -webkit-flex-shrink: 5 !important;
+    -ms-flex-negative: 5 !important;
+    flex-shrink: 5 !important;
+}
+.align-items-flex-start {
+    -webkit-box-align: start !important;
+    -webkit-align-items: flex-start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+}
+.align-items-flex-end {
+    -webkit-box-align: end !important;
+    -webkit-align-items: flex-end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important;
+}
+.align-items-stretch {
+    -webkit-box-align: stretch !important;
+    -webkit-align-items: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+}
+.align-items-baseline {
+    -webkit-box-align: baseline !important;
+    -webkit-align-items: baseline !important;
+    -ms-flex-align: baseline !important;
+    align-items: baseline !important;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.align-self-flex-start {
+    -webkit-align-self: flex-start !important;
+    -ms-flex-item-align: start !important;
+    align-self: flex-start !important;
+}
+.align-self-flex-end {
+    -webkit-align-self: flex-end !important;
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important;
+}
+.align-self-stretch_1 {
+    -webkit-align-self: stretch !important;
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+}
+.align-self-baseline {
+    -webkit-align-self: baseline !important;
+    -ms-flex-item-align: baseline !important;
+    align-self: baseline !important;
+}
+.align-self-center {
+    -webkit-align-self: center !important;
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+}
+.align-content-flex-start {
+    -webkit-align-content: flex-start !important;
+    -ms-flex-line-pack: start !important;
+    align-content: flex-start !important;
+}
+.align-content-flex-end {
+    -webkit-align-content: flex-end !important;
+    -ms-flex-line-pack: end !important;
+    align-content: flex-end !important;
+}
+.align-content-center {
+    -webkit-align-content: center !important;
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+}
+.align-content-stretch {
+    -webkit-align-content: stretch !important;
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important;
+}
+.align-content-space-between {
+    -webkit-align-content: space-between !important;
+    -ms-flex-line-pack: justify !important;
+    align-content: space-between !important;
+}
+.align-content-space-around {
+    -webkit-align-content: space-around !important;
+    -ms-flex-line-pack: distribute !important;
+    align-content: space-around !important;
+}
+.justify-content-flex-start {
+    -webkit-box-pack: start !important;
+    -webkit-justify-content: flex-start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+}
+.justify-content-flex-end {
+    -webkit-box-pack: end !important;
+    -webkit-justify-content: flex-end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+}
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.justify-content-space-between {
+    -webkit-box-pack: justify !important;
+    -webkit-justify-content: space-between !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+.justify-content-space-around {
+    -webkit-justify-content: space-around !important;
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+}
+.edit-btn-default {
+    position: absolute;
+    cursor: pointer;
+    height: 100%;
+    right: 0px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.edit-btn-default.allBorder {
+    right: 8px;
+}
+
+
+
+
+
+.designer-container {
+    min-height: 40px;
+    min-width: 40px;
+    /*overflow: auto;*/
+}
+.auxiliary-line {
+    outline: 1px dashed rgba(216, 216, 216, 0.7) !important;
+}
+/* .selected{
+  outline:1px solid #f5bd07 !important;
+  outline-offset:-2px !important;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(245,189,7,.6);
+} */
+.selected,
+.initStyle {
+    position: relative;
+}
+img.selected {
+    outline: 2px solid #2872fc !important;
+    outline-offset: -2px !important;
+}
+.selected:after {
+    content: '' !important;
+    position: absolute!important;
+    left: 0!important;
+    top: 0!important;
+    height: 100%!important;
+    width: 100%!important;
+    border: 2px solid #2872fc !important;
+    pointer-events: none!important;
+    z-index: 1!important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    transform: none !important;
+}
+.disable-select .selected:before,
+.disable-select:before {
+    border: none !important;
+}
+/*继承控件显示的三角标识*/
+.triangle:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgba(180, 180, 180, 0.8);
+    border-right: 10px solid transparent;
+}
+/*套打使用样式*/
+.print-selected {
+    outline: 1px solid #f5bd07 !important;
+}
+.print-header,
+.print-footer {
+    outline: dotted 1px #aaa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+.print-footer {
+    bottom: 0;
+}
+.print-header {
+    top: 0;
+    z-index: 1;
+}
+/*套打控件拖拽时边框的样式*/
+.border-top-highlight {
+    cursor: n-resize;
+    border-top: solid 1px #E1453E !important;
+}
+.border-bottom-highlight {
+    cursor: n-resize;
+    border-bottom: solid 1px #E1453E !important;
+}
+.border-left-highlight {
+    cursor: e-resize;
+    border-left: solid 1px #E1453E !important;
+}
+.border-right-highlight {
+    cursor: e-resize;
+    border-right: solid 1px #E1453E !important;
+}
+
+
+[data-hover-component='true']::after {
+    content: ' ';
+    display: block;
+    z-index: 1!important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    outline: 1px dashed #2872fc !important;
+    outline-offset: -1px;
+    pointer-events: none;
+}
+[data-hover-container='true']::after {
+    /* content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 1!important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    outline-offset: -1px;
+    background:rgba(40,114,252,0.05);
+    pointer-events: none; */
+}
+[data-select-component='true']::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #2872fc;
+    pointer-events: none;
+    z-index: 1;
+}
+.drag-component-target::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #2872fc;
+    border-right-width: 3px!important;
+    border-bottom-width: 3px!important;
+    pointer-events: none;
+    z-index: 1;
+}
+.drag-container-target::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #2872fc;
+    pointer-events: none;
+    z-index: 1;
+}
+
+
+
+
+
+.root .label {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 70px;
+    padding-right: 5px;
+    line-height: 14px;
+    overflow: hidden;
+    color: #666666;
+    height: 28px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.root .label-width {
+    width: 30%;
+}
+.root .container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.root .input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 4px 7px;
+    cursor: text;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    height: 28px;
+    -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.root .input:focus {
+    outline: 0;
+    border-color: #2B87F3;
+    /*box-shadow: 0 0 0 2px rgba(45,183,245,.2);*/
+}
+.root .input:hover {
+    border: 1px solid #2B87F3;
+}
+.root .shrink {
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    min-width: 1px;
+}
+.root .arrow {
+    cursor: pointer;
+}
+.root .mixinscontrol {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+.root .mixinscontrol input {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 4px 7px;
+    cursor: text;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    height: 28px;
+    -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: border 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), background 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-box-shadow 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.root .mixinscontrol input:focus {
+    outline: 0;
+    border-color: #2B87F3;
+    /*box-shadow: 0 0 0 2px rgba(45,183,245,.2);*/
+}
+.root .mixinscontrol input:hover {
+    border: 1px solid #2B87F3;
+}
+.root .mixinscontrol .triger {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #A7B5D3;
+    color: #fff;
+}
+.root .mixinscontrol .btn {
+    display: inline-block;
+    cursor: pointer;
+    width: 27px;
+    border: 1px solid transparent;
+    border-color: #ccc;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    background: #A7B5D3;
+    color: #fff;
+}
+.root .marginbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 1px dashed;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+.root .marginbox .top .title {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.root .marginbox .center {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.root .marginbox .center .content {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.root .marginbox .value {
+    height: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1px;
+}
+.root .marginbox .value .ip {
+    cursor: text;
+    color: #666;
+    width: 23px;
+    height: 23px;
+    border: 0px;
+    background-color: #eee;
+    display: block;
+    border-radius: 1px;
+    text-align: center;
+}
+.root .marginbox .whbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    outline: 1px solid;
+    height: 20px;
+    line-height: 20px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background-color: rgba(91, 167, 218, 0.5);
+}
+.root .marginbox .whbox .fa-refresh {
+    cursor: pointer;
+}
+.root .paddingbgc {
+    background-color: rgba(178, 178, 92, 0.5);
+}
+.root .paddingbgc:hover {
+    background-color: #b2b25c;
+}
+.root .borderbgc {
+    background-color: rgba(183, 135, 51, 0.5);
+    outline: 1px solid;
+}
+.root .borderbgc:hover {
+    background-color: #b78733;
+}
+.root .marginbgc {
+    background-color: rgba(140, 105, 105, 0.5);
+}
+.root .marginbgc:hover {
+    background-color: #8c6969;
+}
+.root .borderpanel {
+    margin-top: 5px;
+}
+.root .singleBorderpanel {
+    position: relative;
+    padding: 8px 0 12px 5px;
+    border-radius: 4px;
+    background-color: #ECEAF3;
+}
+.root .singleBorderpanel .editTap {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.root .singleBorderpanel .editTap .arrow {
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid #3F4D7B;
+    border-top: 0px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.root .readonly {
+    border: solid 0px #d9d9d9;
+    border-radius: 4px;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    padding: 4px 7px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #87909F;
+    /*background-color: #ebebe4;*/
+}
+.root .hidden {
+    display: none;
+}
+.root .entityLabelClass {
+    width: 100px;
+}
